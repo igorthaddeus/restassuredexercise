@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-07T20:37:34 WIB" name="Surefire suite" finished-at="2024-12-07T20:37:42 WIB" duration-ms="8053">
+    <groups>
+    </groups>
+    <test started-at="2024-12-07T20:37:34 WIB" name="Surefire test" finished-at="2024-12-07T20:37:42 WIB" duration-ms="8053">
+      <class name="scenarios.productTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scenarios.productTest@78047b92]" started-at="2024-12-07T20:37:34 WIB" name="setUp" finished-at="2024-12-07T20:37:35 WIB" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddNewProduct()[pri:0, instance:scenarios.productTest@78047b92]" started-at="2024-12-07T20:37:35 WIB" name="AddNewProduct" finished-at="2024-12-07T20:37:38 WIB" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewProduct -->
+        <test-method signature="GetAllObjects()[pri:0, instance:scenarios.productTest@78047b92]" started-at="2024-12-07T20:37:38 WIB" name="GetAllObjects" finished-at="2024-12-07T20:37:39 WIB" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllObjects -->
+        <test-method signature="UpdateProduct()[pri:1, instance:scenarios.productTest@78047b92]" started-at="2024-12-07T20:37:39 WIB" name="UpdateProduct" finished-at="2024-12-07T20:37:40 WIB" depends-on-methods="scenarios.productTest.AddNewProduct" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateProduct -->
+        <test-method signature="DeleteProduct()[pri:2, instance:scenarios.productTest@78047b92]" started-at="2024-12-07T20:37:40 WIB" name="DeleteProduct" finished-at="2024-12-07T20:37:41 WIB" depends-on-methods="scenarios.productTest.UpdateProduct" duration-ms="1308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProduct -->
+        <test-method signature="GetASingleProduct()[pri:3, instance:scenarios.productTest@78047b92]" started-at="2024-12-07T20:37:41 WIB" name="GetASingleProduct" finished-at="2024-12-07T20:37:42 WIB" depends-on-methods="scenarios.productTest.DeleteProduct" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetASingleProduct -->
+      </class> <!-- scenarios.productTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
